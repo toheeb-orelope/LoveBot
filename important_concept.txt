@@ -1,0 +1,9 @@
+1. Bag of words to convert text to binary array
+2. Feed Forward Neural Net
+3. Tokenization
+4. Stemming 
+
+NPL Preprocessing Pipeline
+tokeniz --> lower + stem --> exclude punctuation characters --> bad of words
+
+Natural Language Toolkit (NLTK) 
