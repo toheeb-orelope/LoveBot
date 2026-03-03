@@ -1,0 +1,51 @@
+# Documenttation
+# https://www.deeplearning.ai/resources/natural-language-processing/
+# https://spacy.io/
+# https://pytorch.org/
+# https://scikit-learn.org/
+# https://pytorch.org/hub/huggingface_pytorch-transformers/
+# https://huggingface.co/docs/transformers/en/index
+
+**Manage virtual environment using anaconda**
+
+Empty Environment: To create a simple environment by name: conda create --name myenv
+
+With Specific Python Version: (Recommended) Most projects require a specific version: conda 
+create -n myenv python=3.14.3
+
+With Initial Packages: You can install packages at the same time you create the environment: 
+conda create -n myenv python=3.11 numpy pandas matplotlib
+
+Once created, you must activate it to use it: 
+Activate: conda activate myenv
+Deactivate: conda deactivate
+List all environments: conda env list or conda info --envs
+Remove environment: conda env remove -n myenv
+
+Clone an existing environment: Useful for making backups before risky changes: 
+conda create --name new_env --clone old_env
+
+
+NLP Libraries
+Natural Language Toolkit (NLTK)
+spaCy
+Hugging Face offers open-source implementations and weights of over 135 state-of-the-art models.
+Gensim provides vector space modeling and topic modeling algorithms.
+
+# Data preprocessing: 
+# Stemming and lemmatization: Stemming is an informal process of converting words to their 
+base forms using heuristic rules.
+# Sentence segmentation breaks a large piece of text into linguistically meaningful sentence units.
+# Stop word removal aims to remove the most commonly occurring words that don’t add much 
+information to the text. For example, “the,” “a,” “an,” and so on.
+# Tokenization splits text into individual words and word fragments.
+
+
+# Feature extraction:
+# Bag-of-Words: Bag-of-Words counts the number of times each word or n-gram (combination of n words) appears in a document. 
+
+
+
+
+
+

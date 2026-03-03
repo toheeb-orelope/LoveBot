@@ -9,6 +9,15 @@ from torch.utils.data import (
 from nltk_utils import tokenize, stem, bag_of_words  # Import NLP utility functions
 from model import NeuralNet  # Import the neural network model
 
+# Check PyTorch version
+print(f"PyTorch version: {torch.__version__}")
+
+# Check if GPU is available
+print(f"CUDA (GPU) available: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"Number of GPUs: {torch.cuda.device_count()}")
+    print(f"Current GPU: {torch.cuda.get_device_name(0)}")
+
 with open("love_intents.json", "r") as f:  # Load intents from JSON file
     intents = json.load(f)
 

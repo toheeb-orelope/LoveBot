@@ -1,6 +1,15 @@
 import torch  # Import PyTorch library
 import torch.nn as nn  # Import neural network module from PyTorch
 
+# # Check PyTorch version
+# print(f"PyTorch version: {torch.__version__}")
+
+# # Check if GPU is available
+# print(f"CUDA (GPU) available: {torch.cuda.is_available()}")
+# if torch.cuda.is_available():
+#     print(f"Number of GPUs: {torch.cuda.device_count()}")
+#     print(f"Current GPU: {torch.cuda.get_device_name(0)}")
+
 
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):

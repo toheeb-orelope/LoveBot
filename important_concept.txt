@@ -7,3 +7,18 @@ NPL Preprocessing Pipeline
 tokeniz --> lower + stem --> exclude punctuation characters --> bad of words
 
 Natural Language Toolkit (NLTK) 
+
+
+User Input
+   ↓
+Tokenize (NLTK)
+   ↓
+Stem
+   ↓
+Bag of Words Vector
+   ↓
+Neural Network (MLP)
+   ↓
+Intent Classification
+   ↓
+Pre-written response
